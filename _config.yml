@@ -32,10 +32,10 @@ avatar: http://oo12ugek5.bkt.clouddn.com/images/qrcode.png
 # qrcode: http://oo12ugek5.bkt.clouddn.com/images/qrcode.png
 
 # 文章的默认封面
-default_cover: http://oo12ugek5.bkt.clouddn.com/images/default_cover.png
+default_cover: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1607876703283&di=610a1af3d3fa19f0b88d44c9a1c03300&imgtype=0&src=http%3A%2F%2Fhbimg.huabanimg.com%2Fecc658501ff8e78fb1dbfcd312ea6ce5b2f7c17e1168ac-SpX7oc_fw658
 
 # header 的背景图
-header_cover: https://blog.static.minfive.com/other/banner-bg.jpg
+header_cover: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1607876703283&di=610a1af3d3fa19f0b88d44c9a1c03300&imgtype=0&src=http%3A%2F%2Fhbimg.huabanimg.com%2Fecc658501ff8e78fb1dbfcd312ea6ce5b2f7c17e1168ac-SpX7oc_fw658
 
 # 404 页面的背景图
 error_page_bg: https://blog.static.minfive.com/other/dogs.jpg
@@ -147,3 +147,21 @@ deploy:
   type: git
   repo: https://github.com/ziwen-wang/ziwen-wang.github.io.git
   branch: master
+
+# live2 config
+live2d:
+  enable: true
+  scriptFrom: local
+  pluginRootPath: live2dw/
+  pluginJsPath: lib/
+  pluginModelPath: assets/
+  tagMode: false
+  debug: false
+  model:
+    use: live2d-widget-model-hijiki
+  display:
+    position: right
+    width: 150
+    height: 300
+  mobile:
+    show: true

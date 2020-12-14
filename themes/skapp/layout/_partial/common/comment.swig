@@ -38,3 +38,7 @@
     </script>
     <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 {% endif %}
+{% if page.comments %}
+	<script type="text/javascript" src=//cdn.jsdelivr.net/npm/leancloud-storage@3/dist/av-min.js></script>
+    <script type="text/javascript" src=//cdn.jsdelivr.net/npm/valine@1.4/dist/Valine.min.js></script>
+{% endif %}

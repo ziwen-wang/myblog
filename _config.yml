@@ -25,17 +25,17 @@ introduction: 不思量，自难忘！
 favicon_ico: https://blog.static.minfive.com/other/favicon.ico
 
 # 博客的左上角logo图标，支持本地及在线两种方式
-logo: https://avatars1.githubusercontent.com/u/19220127?s=60&u=025df42ba1876d3b6971288d832bba0601d92e95&v=4
+logo: http://www.wzwluck.com:8080/static/header_cover.png
 
 # 头像/二维码（用于显示在底部）二选一
-avatar: http://oo12ugek5.bkt.clouddn.com/images/qrcode.png
+avatar: http://www.wzwluck.com:8080/static/qrcode.png
 # qrcode: http://oo12ugek5.bkt.clouddn.com/images/qrcode.png
 
 # 文章的默认封面
 default_cover: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1607876703283&di=610a1af3d3fa19f0b88d44c9a1c03300&imgtype=0&src=http%3A%2F%2Fhbimg.huabanimg.com%2Fecc658501ff8e78fb1dbfcd312ea6ce5b2f7c17e1168ac-SpX7oc_fw658
 
 # header 的背景图
-header_cover: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1607876703283&di=610a1af3d3fa19f0b88d44c9a1c03300&imgtype=0&src=http%3A%2F%2Fhbimg.huabanimg.com%2Fecc658501ff8e78fb1dbfcd312ea6ce5b2f7c17e1168ac-SpX7oc_fw658
+header_cover: https://bing.ioliu.cn/v1/rand?w=1920&h=500
 
 # 404 页面的背景图
 error_page_bg: https://blog.static.minfive.com/other/dogs.jpg
@@ -61,7 +61,12 @@ permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
   trailing_html: true # Set to false to remove trailing '.html' from permalinks
+menu:
+  home: / 
+  archive: /archives
+  about: /about
 
+language: zh-cn
 # Directory
 source_dir: source
 public_dir: public
@@ -160,10 +165,24 @@ live2d:
   model:
     use: hijiki
   display:
-    position: right
+    position: left
     width: 150
     height: 300
   mobile:
     show: true
   react:
     opacity: 0.7
+
+# Baidu statistic
+baidu_statistic: e3267498201dfa9699a5c509424709d6
+valine:
+    enable: true
+    appid: aq5LAf0RA227QkgC12Tk3fco-gzGzoHsz
+    appkey: 0fChGJ9L42EIHsluBSpv7P6w
+    masterkey: LTRgjoILjIOEAnDcNxaO5rO8
+    language: zh-cn
+    placeholder: ヾﾉ≧∀≦)o来啊，快活啊! 
+    pageSize: 10
+    guest_info: nick,mail,link
+    notifiy: false # mail notifier,https://github.com/xCss/Valine/wiki //是否开启邮箱提醒
+    verfify: false # Verifaication code //开启验证码

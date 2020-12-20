@@ -1,0 +1,9 @@
+- title: github
+  icon: icon-github
+  link: https://github.com/ziwen-wang
+- title: email
+  icon: icon-email
+  link: mailto::wangziwen.88888@foxmail.com
+- title: rss
+  icon: icon-rss
+  link: /atom.xml
